@@ -8,6 +8,8 @@ readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
     # Add your dependencies here, e.g.:
+    "numpy",
+    "opencv-python",
 ]
 
 [build-system]
