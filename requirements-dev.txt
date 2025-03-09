@@ -1,13 +1,13 @@
 -r requirements.txt
 black
 djlint
-pre-commit
-pytest
-pytest-asyncio
-pylint
-isort
 flake8
+isort
 mypy
 pip-tools
+pre-commit
+pylint
+pytest
+pytest-asyncio
 python-dotenv
 python-semantic-release
