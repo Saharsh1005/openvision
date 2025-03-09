@@ -1,0 +1,37 @@
+[project]
+name = "openvision"
+version = "0.1.0" #(major.minor.patch)
+description = "A modular and efficient computer vision toolkit"
+authors = [{ name = "Saharsh Barve", email = "saharshbarve@gmail.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    # Add your dependencies here, e.g.:
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = { find = {} }
+
+# Optional: CLI entry point
+# [project.scripts]
+# your_script_name = "your_module:main"
+
+# Optional: Linting and formatting settings
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint.format]
+max-line-length = 88
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_functions = "test_*"
