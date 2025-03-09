@@ -10,3 +10,4 @@ flake8
 mypy
 pip-tools
 python-dotenv
+python-semantic-release
