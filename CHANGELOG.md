@@ -1,7 +1,7 @@
 # CHANGELOG
 
 
-## v0.2.0 (2025-03-08)
+## v0.2.0 (2025-03-09)
 
 ### Bug Fixes
 
@@ -13,6 +13,9 @@
 
 - Pre-commit lint
   ([`318032c`](https://github.com/Saharsh1005/openvision/commit/318032cbead81d786c6a35bdfac161c0e1b3e3d9))
+
+- Remove .md lint
+  ([`bda1389`](https://github.com/Saharsh1005/openvision/commit/bda13893405b1ff978004a33acb0daccaaca8c53))
 
 - Requirements manually
   ([`447aee7`](https://github.com/Saharsh1005/openvision/commit/447aee79f7e47f375943cb8d2a19a992c216eb7e))
