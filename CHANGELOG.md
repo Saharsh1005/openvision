@@ -78,3 +78,7 @@
 
 - Package setup
   ([`6b2f23e`](https://github.com/Saharsh1005/openvision/commit/6b2f23e0e2a90bf9365947e3ddcc221ca11b4016))
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
