@@ -23,9 +23,25 @@ build-backend = "poetry.core.masonry.api"
 enable = true
 source = "git-tag"
 
+[tool.git-cliff.changelog]
+header = "# Changelog\n\n"
+body = """
+{% for version in versions %}
+## {{ version.version }} - {{ version.date }}
+{% for group, commits in version.commit_groups %}
+### {{ group }}
+{% for commit in commits %}
+- {{ commit.message }}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+"""
+footer = "\n"
+
 [tool.poetry.group.dev.dependencies]
 pip-tools = "^7.4.1"
 pre-commit = "^4.1.0"
 pytest = "^8.3.5"
 pytest-asyncio = "^0.25.3"
 python-dotenv = "^1.0.1"
+git-cliff = "^2.8.0"
