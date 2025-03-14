@@ -6,10 +6,18 @@
 
 ## 🔧 Changes Made
 
-- ✔️ Added/Updated/Fixed: [Description of the changes made]
-- 🐛 Bug Fix: [If applicable, describe the bug and how it's fixed]
-- 🎨 Refactored: [If applicable, explain what was refactored and why]
-
+- ✔️ Added/Updated/Fixed: 
+    - 
+    - 
+    - 
+- 🐛 Bug Fix: 
+    - 
+    - 
+    - 
+- 🎨 Refactored: 
+    - 
+    - 
+    - 
 ## ✅ Checklist
 
 - [ ] I have tested my changes locally.
